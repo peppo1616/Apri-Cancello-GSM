@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <PreferenceCategory
+                android:title="@string/SET_GATE_CATEGORY">
+        <EditTextPreference
+            	android:inputType="phone"
+                android:name="@string/SET_GATE_NUMBER_OPTION"
+                android:summary="@string/SET_GATE_NUMBER_DESC"
+                android:defaultValue=""
+                android:title="@string/SET_GATE_NUMBER_OPTION"
+                android:key="GateNumberPref" />
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="@string/SET_GPS_CATEGORY"
+                android:key="GpsCategory">
+                <CheckBoxPreference
+                        android:title="@string/SET_GPS_OPTION"
+                        android:defaultValue="false"
+                        android:summary="@string/SET_GPS_OPTION_DESC"
+                        android:key="GpsPref" />
+                <Preference
+                android:title="Set Home"
+                android:summary="Click to set your home to current GPS position"
+                android:key="SetCurrentGPSpositionPref"/>
+               
+                <EditTextPreference
+                android:name="CurrentHomeposition"
+                android:summary="Not defined"
+                android:defaultValue="Not defined"
+                android:title="Current Home"
+                android:key="CurrentHomeposition" />
+                
+                <CheckBoxPreference
+                        android:title="@string/SET_GPS_SERVICE"
+                        android:defaultValue="false"
+                        android:summary="@string/SET_GPS_SERVICE_DESC"
+                        android:key="GpsServicePref" />
+                
+                <Preference
+                android:name="ViewHomeMap"
+                android:title="View on Map"
+                android:summary="Click to see your Home position"
+                android:key="ViewHomeMap"/>
+                   
+                
+                <it.andreapola.apricancellogsm.CustomPreference.EditIntPreference
+                android:name="GPSOpenDistance"
+                android:summary="Distance to open gate (from home in meters)"
+                android:defaultValue="100"
+                android:inputType="numberDecimal"
+    			android:maxLength="4"
+                android:title="GPS Open Distance"
+                android:key="GPSOpenDistance" />                 
+                                                               
+        </PreferenceCategory>
+        
+</PreferenceScreen>

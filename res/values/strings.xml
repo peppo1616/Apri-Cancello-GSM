@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Apri Cancello GSM</string>
+
+    <string name="NO_SETTINGS">Set your GSM Number first</string>
+    <string name="LONG_PRESS">Long Press to open the gate</string>
+    
+    <string name="SET_GATE_CATEGORY">Gate Options</string>
+    <string name="SET_ADV_CATEGORY">Advanced Options</string>
+    <string name="SET_GPS_CATEGORY">GPS Options (Beta)</string>
+    
+    <string name="SET_GATE_NUMBER_OPTION">Gate Number</string>
+	<string name="SET_GATE_NUMBER_DESC">Click to set your Gate Phone</string>
+	<string name="SET_SAVEBTN">Save Preferences</string>
+	<string name="SET_CURRVALTITLE">Current Number</string>
+	<string name="SET_DEFVALTITLE">---</string>
+	<string name="SET_CONFIRM">Settings Saved</string>
+
+	<string name="SET_GPS_OPTION">Use GPS </string>
+	<string name="SET_GPS_SERVICE"> Open Gate by GPS </string>
+	<string name="SET_GPS_SERVICE_DESC">Start GPS Service to open gate when you return at home </string>
+	<string name="SET_GPS_OPTION_DESC">To set GPS options</string>
+	<string name="SET_WIFI_CATEGORY">Wifi Options (Test mode)</string>
+	<string name="SET_WIFI_OPTION">Open Gate by Wifi</string>
+	<string name="SET_WIFI_OPTION_DESC">To open gate when your wifi in connected</string>
+	
+	<string name="STATE_CLOSE">Click to open the gate</string>
+	<string name="STATE_OPENING">Gate is opening</string>
+	
+	<string name="MENU_INFO">About</string>
+	<string name="MENU_PREF">Settings</string>	
+	
+	<string name="DEVICE_NOT_READY">Device Not Ready, Check if GPS is Enabled or Retry in Open Air!</string>
+	<string name="DEVICE_NOT_ENABLED">Enable GPS FIRST</string>
+	<string name="GPS_LOADING">"GPS Loading. Please wait, this may take 30 seconds"</string>
+	<string name="GPS_NEEDED">You have to enable GPS if you want to use this option</string>
+	<string name="GPS_ON_AIR">Now GPS will try to synch, go where you can look at the sky please!</string>
+	
+	
+</resources>

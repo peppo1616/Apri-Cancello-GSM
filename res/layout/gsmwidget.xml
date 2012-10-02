@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/bottombar"
+		android:padding="10dip"
+		android:layout_margin="10dip">
+		
+		<ImageButton
+		    android:layout_width="80dp"
+		    android:id="@+id/openbuttonwidget"
+		    android:layout_height="match_parent"
+		    android:background="@android:color/transparent"
+		    android:src="@drawable/openbuttonwidget_mov" />
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/txtInfo"
+			android:text="Click to Open The Gate"
+			android:textColor="#575757"
+			android:gravity="center_horizontal|center_vertical"/>
+			
+	</LinearLayout>
+</LinearLayout>
